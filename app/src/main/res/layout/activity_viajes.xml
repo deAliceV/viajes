@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nombre de destino"
+        android:layout_margin="15dp"
+        />
+    <EditText
+        android:id="@+id/editTextDestino"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ingresa tu destino"
+        android:inputType="textPersonName"
+        android:padding="16dp"
+        android:textColorHint="#888888"
+        android:textSize="16sp"/>
+    <TextView
+        android:id="@+id/tvFechaInicio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="12dp"
+        android:text="Seleccionar Fecha de Inicio"
+        android:textSize="18sp"
+         />
+
+    <!-- Espacio entre los dos campos -->
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="16dp" />
+
+    <!-- Campo para seleccionar la fecha de fin -->
+    <TextView
+        android:id="@+id/tvFechaFin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="12dp"
+        android:text="Seleccionar Fecha de Fin"
+        android:textSize="18sp"
+         />
+
+    <Button
+        android:id="@+id/btnGuardar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Agregar"
+        android:layout_margin="16dp"
+         />
+
+</LinearLayout>
